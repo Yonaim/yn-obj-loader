@@ -2596,6 +2596,9 @@ bool LoadObj(attrib_t *attrib, std::vector<shape_t> *shapes,
                  triangulate, default_vcols_fallback);
 }
 
+
+
+
 bool LoadObj(attrib_t *attrib, std::vector<shape_t> *shapes,
              std::vector<material_t> *materials, std::string *warn,
              std::string *err, std::istream *inStream,
